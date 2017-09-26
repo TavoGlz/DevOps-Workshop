@@ -2,8 +2,8 @@ applications:
 - path: .
   memory: 960M
   instances: 1
-  domain: mybluemix.net
-  name: youRockywithDevOps
-  host: youRockywithDevOps
+  domain: $CF_DOMAIN
+  name: $APP_NAME
+  host: $APP_NAME
   disk_quota: 960M
   random-route: false
